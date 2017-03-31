@@ -7,7 +7,7 @@ from bidi.algorithm import get_display
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
-import MySQLdb
+# import MySQLdb
 from flask import Flask, flash, redirect, render_template, request, session, url_for
 import urllib
 from functools import wraps
