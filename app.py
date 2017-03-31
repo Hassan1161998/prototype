@@ -31,7 +31,7 @@ import sys
 #     pass
 
 
-db = psycopg2.connect("dbname=d2jp4dc6cpjdl8 user=doqkmykqusfyyk")
+db = psycopg2.connect("dbname=d2jp4dc6cpjdl8 user=doqkmykqusfyyk password=6f2666fe8a70c872a184210c565d7bb980cc7f42fac04a0fdfa4975e5aaeee21 host=ec2-54-235-240-92.compute-1.amazonaws.com")
 
 cur = db.cursor()
 
