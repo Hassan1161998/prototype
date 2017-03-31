@@ -31,7 +31,7 @@ import sys
 #     pass
 
 
-db = MySQLdb.connect(host="127.0.0.1", user="root", passwd="", db="tup")
+db = psycopg2.connect("dbname=d2jp4dc6cpjdl8 user=doqkmykqusfyyk")
 
 cur = db.cursor()
 
