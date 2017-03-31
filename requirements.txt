@@ -13,4 +13,5 @@ Flask-Session
 passlib
 schedule
 python-bond
+psycopg2
 
