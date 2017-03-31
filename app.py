@@ -17,7 +17,7 @@ from passlib.apps import custom_app_context as pwd_context
 import time
 from werkzeug import secure_filename
 import datetime
-
+import psycopg2
 
 # import cgi
 # import cgitb; cgitb.enable()
